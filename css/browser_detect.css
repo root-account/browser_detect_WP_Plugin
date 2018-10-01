@@ -1,0 +1,43 @@
+.outdated_browser {
+    z-index: 9999;
+    color: #ffffff !important;
+    position: fixed;
+    background: black;
+    width: 100%;
+    padding: 5%;
+    text-align: center !important;
+    font-family: arial !important;
+}
+
+.outdated_browser span{
+	font-size: 25px;
+    font-family: arial !important;
+}
+
+.outdated_browser a{
+	color: #000000 !important;
+	background: #ffffff;
+	padding: 10px 25px;
+	margin-right: 20px;
+    font-family: arial !important;
+}
+
+.outdated_browser p{
+	margin-top: 15px;
+    font-family: arial !important;
+}
+
+.outdated_browser i.material-icons{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 40px;
+}
+
+.outdated_browser i.material-icons:hover{
+    color: red !important;
+    cursor: pointer;
+}
+.outdated_browser p {
+    color: #ffffff !important;
+    }
