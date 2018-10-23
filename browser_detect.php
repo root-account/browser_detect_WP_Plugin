@@ -11,7 +11,6 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-
 //Add Settings page
 add_action('admin_menu', function() {
   add_options_page( 'Plugin settings page Title', 'Browser Detect', 'manage_options', 'browser_detect', 'browser_detect_plugin_page' );
@@ -33,7 +32,6 @@ function themeslug_enqueue_script() {
 	wp_enqueue_script( 'main-js', $plugin_url  .'js/browser_detect.js',  array('jquery'), null, false );
 
 }
-
 
 
   if(!(isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident') !== false || strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))){
